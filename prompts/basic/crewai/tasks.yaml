@@ -1,0 +1,46 @@
+# CrewAI task prompts - Basic level
+# These task descriptions are the CrewAI equivalent of the extractor / RA / DE prompts.
+# {project_description}, {approved_requirements}, {approved_ra}, {feedback} are runtime
+# variables filled in at execution time.
+
+extract_task:
+  description: >
+    Analyze the following raw project description and create detailed list of requirements.
+
+    Project Input:
+    {project_description}
+
+    If user feedback on a previous draft is provided below, incorporate ALL requested changes.
+    User Feedback: {feedback}
+  expected_output: >
+    Output only the categorized list, no preamble.
+
+ra_task:
+  description: >
+    Approved Requirements:
+    {approved_requirements}
+
+    Write a **long, detailed Software Requirements Specification (SRS)** in Markdown. 
+
+    Guidelines:
+    - Ensure every requirement is SMART (Specific, Measurable, Achievable, Relevant, Testable).
+    - Expand bullet points into professional, development-team-ready prose.
+    - Use English only.
+    - Output only the Markdown document (RA.md content), no preamble.
+
+    If user feedback on a previous draft is provided below, incorporate ALL requested changes.
+    User Feedback: {feedback}
+  expected_output: >
+    A long and detailed, comprehensive Markdown SRS document with many detailed requirements in tables. Output only the Markdown (RA.md content), no preamble.
+
+de_task:
+  description: >
+    Approved RA Document:
+    {approved_ra}
+
+    Write a **long, detailed Design & Estimation document** in Markdown based on the RA above. 
+
+    If user feedback on a previous draft is provided below, incorporate ALL requested changes.
+    User Feedback: {feedback}
+  expected_output: >
+    A long and detailed, comprehensive Markdown DE document with architecture, tech stack, estimates, costs, and traceability. Output only the Markdown (DE.md content), no preamble.

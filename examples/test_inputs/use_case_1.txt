@@ -1,0 +1,30 @@
+Access and update your HR and payroll information. Connect with colleagues wherever you are.  As an employee, you deserve to have all the information you want and need in the palm of your hand. With Paylocitys intuitive, easy-to-use app, you can.  
+
+Quickly view your paycheck, clock in and out, access messages, complete tasks, and more on the home screen. Customize your navigation to quickly get to your most-used features.  
+
+What can employees do in the app?
+
+- Edit personal info, search the company directory, or view current and historical pay info
+- Receive push notifications for activities like time-off request approvals, checks becoming available, chats, and more
+- Access Community, Paylocitys social collaboration hub, to get important updates from leaders and connect with peers
+- Request access to a portion of earned wages before payday
+- Review schedules and timesheets
+- Clock in and out
+- View an interactive org chart to check organizational structure and reach out to colleagues
+
+What can supervisors do in the app?  
+
+- Submit, view, and approve time-off requests with real-time push notifications
+- Review and approve timecards
+- Review and approve expense reports
+- Manage Journal entries for direct reports
+- Create, view, and edit schedules and shifts
+
+Security features:
+- Biometric functions are available for secure quick logins  
+- All activities are encrypted and routed safely to secure Paylocity servers 
+- Sessions will time out if inactive to prevent unauthorized access
+
+App usage: 
+
+To use the Paylocity Mobile App, your employer must be a Paylocity client, and you must be an authorized user with Paylocity credentials. Security role rights, specific access to the Paylocity mobile application, and functionality listed below may vary from company to company.
