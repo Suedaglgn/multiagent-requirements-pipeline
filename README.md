@@ -28,6 +28,7 @@ The experiments span:
 | `roles/` | Agent role/persona definitions | [roles/README.md](roles/README.md) |
 | `templates/` | Expected output structure for RA, DE, and extractor categories | [templates/README.md](templates/README.md) |
 | `examples/` | Experiment inputs and reference (ground-truth) outputs | [examples/README.md](examples/README.md) |
+| `rankings/` | Per-use-case top-10 leaderboards of pipeline configurations | [rankings/README.md](rankings/README.md) |
 
 ## Where to start
 
@@ -35,3 +36,4 @@ The experiments span:
 - To see the agents that run those prompts, read [roles/README.md](roles/README.md).
 - To see the shape of the RA/DE outputs, read [templates/README.md](templates/README.md).
 - For concrete inputs and reference outputs, read [examples/README.md](examples/README.md).
+- For the best-performing configurations per use case, read [rankings/README.md](rankings/README.md).
