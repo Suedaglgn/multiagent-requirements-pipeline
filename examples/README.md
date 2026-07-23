@@ -23,11 +23,11 @@ Every use-case folder has the same layout:
   RA/                # Requirements Analysis documents
     ground_truth.md  # Reference RA document
     balanced_first.md    balanced_second.md    balanced_third.md
-    SS_focused_first.md  SS_focused_second.md  SS_focused_third.md
-    CR_focused_first.md  CR_focused_second.md  CR_focused_third.md
+    quality_focused_first.md  quality_focused_second.md  quality_focused_third.md
+    cost_focused_first.md  cost_focused_second.md  cost_focused_third.md
   DE/                # Design & Estimation documents (same 10-file layout as RA/)
     ground_truth.md
-    balanced_first.md ... CR_focused_third.md
+    balanced_first.md ... cost_focused_third.md
 ```
 
 `ground_truth.md` is the human reference document used to evaluate generated outputs. The
@@ -47,8 +47,8 @@ Three CS weighting schemes drive the three file families:
 | File prefix    | Weighting scheme | Weights (SS / CR) |
 | -------------- | ---------------- | ----------------- |
 | `balanced_*`   | CS equal         | 0.5 / 0.5         |
-| `SS_focused_*` | CS SS-weighted   | 0.8 / 0.2         |
-| `CR_focused_*` | CS CR-weighted   | 0.2 / 0.8         |
+| `quality_focused_*` | CS SS-weighted   | 0.8 / 0.2         |
+| `cost_focused_*` | CS CR-weighted   | 0.2 / 0.8         |
 
 Selection is done per use case, in two steps:
 

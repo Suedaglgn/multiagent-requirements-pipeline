@@ -1,8 +1,8 @@
-# Top 10 - Plant Identification App - CS CR-focused
+# Top 10 - Plant Identification App - CS cost-focused
 
-Top 10 orchestration combinations for the **Plant Identification App** use case, ranked by **CS CR-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
+Top 10 orchestration combinations for the **Plant Identification App** use case, ranked by **CS cost-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | langgraph | orchestrator | qwen3-30b | Advanced | 0.6979 | 0.9225 | 0.8102 | 0.7428 | 0.8776 | 0.0134 |
 | 2 | langgraph | sequential | qwen3-30b | Advanced | 0.6782 | 0.9267 | 0.8024 | 0.7279 | 0.8770 | 0.0150 |

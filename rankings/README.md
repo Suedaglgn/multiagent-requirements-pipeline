@@ -27,8 +27,8 @@ Three CS weighting schemes each get their own leaderboard file:
 | File            | Weighting scheme | Weights (SS / CR) |
 | --------------- | ---------------- | ----------------- |
 | `balanced_*`    | CS equal         | 0.5 / 0.5         |
-| `SS_focused_*`  | CS SS-weighted   | 0.8 / 0.2         |
-| `CR_focused_*`  | CS CR-weighted   | 0.2 / 0.8         |
+| `quality_focused_*`  | CS SS-weighted   | 0.8 / 0.2         |
+| `cost_focused_*`  | CS CR-weighted   | 0.2 / 0.8         |
 
 ## Layout
 
@@ -36,8 +36,8 @@ Three CS weighting schemes each get their own leaderboard file:
 rankings/
   <use_case>/
     balanced_top10.md      # top 10 by CS equal
-    SS_focused_top10.md    # top 10 by CS SS-weighted
-    CR_focused_top10.md    # top 10 by CS CR-weighted
+    quality_focused_top10.md    # top 10 by CS SS-weighted
+    cost_focused_top10.md    # top 10 by CS CR-weighted
 ```
 
 Use-case folder names match those under `examples/`:

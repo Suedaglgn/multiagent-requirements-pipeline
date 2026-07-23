@@ -1,8 +1,8 @@
-# Top 10 - AI Study Assistant - CS SS-focused
+# Top 10 - AI Study Assistant - CS quality-focused
 
-Top 10 orchestration combinations for the **AI Study Assistant** use case, ranked by **CS SS-focused** (0.8 SS / 0.2 CR), averaged over the 5 runs.
+Top 10 orchestration combinations for the **AI Study Assistant** use case, ranked by **CS quality-focused** (0.8 SS / 0.2 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | crewai | single_chat | qwen3-30b | Advanced | 0.7888 | 0.8147 | 0.8017 | 0.7940 | 0.8095 | 0.0209 |
 | 2 | crewai | sequential | qwen3-30b | Advanced | 0.7394 | 0.8957 | 0.8176 | 0.7707 | 0.8645 | 0.0426 |

@@ -2,7 +2,7 @@
 
 Top 10 orchestration combinations for the **AI Study Assistant** use case, ranked by **CS balanced (equal weights)** (0.5 SS / 0.5 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | crewai | sequential | qwen3-30b | Advanced | 0.7394 | 0.8957 | 0.8176 | 0.7707 | 0.8645 | 0.0223 |
 | 2 | crewai | blackboard | qwen3-30b | Advanced | 0.7332 | 0.8917 | 0.8124 | 0.7649 | 0.8600 | 0.0357 |

@@ -1,8 +1,8 @@
-# Top 10 - HR & Payroll Mobile App - CS SS-focused
+# Top 10 - HR & Payroll Mobile App - CS quality-focused
 
-Top 10 orchestration combinations for the **HR & Payroll Mobile App** use case, ranked by **CS SS-focused** (0.8 SS / 0.2 CR), averaged over the 5 runs.
+Top 10 orchestration combinations for the **HR & Payroll Mobile App** use case, ranked by **CS quality-focused** (0.8 SS / 0.2 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | crewai | blackboard | Nvidia-Nemotron3-Nano | Advanced | 0.8097 | 0.8616 | 0.8356 | 0.8200 | 0.8512 | 0.0592 |
 | 2 | crewai | orchestrator | Nvidia-Nemotron3-Nano | Advanced | 0.8104 | 0.8584 | 0.8344 | 0.8200 | 0.8488 | 0.0309 |

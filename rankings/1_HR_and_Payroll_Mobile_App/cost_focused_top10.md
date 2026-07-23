@@ -1,8 +1,8 @@
-# Top 10 - HR & Payroll Mobile App - CS CR-focused
+# Top 10 - HR & Payroll Mobile App - CS cost-focused
 
-Top 10 orchestration combinations for the **HR & Payroll Mobile App** use case, ranked by **CS CR-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
+Top 10 orchestration combinations for the **HR & Payroll Mobile App** use case, ranked by **CS cost-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | langgraph | orchestrator | qwen3-30b | Advanced | 0.7261 | 0.9183 | 0.8222 | 0.7646 | 0.8799 | 0.0129 |
 | 2 | langgraph | single_chat | qwen3-30b | Advanced | 0.6560 | 0.9309 | 0.7935 | 0.7110 | 0.8759 | 0.0165 |

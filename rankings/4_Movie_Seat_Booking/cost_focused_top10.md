@@ -1,8 +1,8 @@
-# Top 10 - Movie Seat Booking - CS CR-focused
+# Top 10 - Movie Seat Booking - CS cost-focused
 
-Top 10 orchestration combinations for the **Movie Seat Booking** use case, ranked by **CS CR-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
+Top 10 orchestration combinations for the **Movie Seat Booking** use case, ranked by **CS cost-focused** (0.2 SS / 0.8 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS SS-focused | CS CR-focused | Std dev |
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | langgraph | sequential | qwen3-30b | Advanced | 0.7243 | 0.9449 | 0.8346 | 0.7684 | 0.9008 | 0.0119 |
 | 2 | langgraph | single_chat | qwen3-30b | Advanced | 0.7475 | 0.9391 | 0.8433 | 0.7858 | 0.9008 | 0.0085 |
