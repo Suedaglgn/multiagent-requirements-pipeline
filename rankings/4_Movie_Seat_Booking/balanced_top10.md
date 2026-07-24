@@ -2,15 +2,17 @@
 
 Top 10 orchestration combinations for the **Movie Seat Booking** use case, ranked by **CS balanced (equal weights)** (0.5 SS / 0.5 CR), averaged over the 5 runs.
 
-| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | Std dev |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | crewai | sequential | qwen3-30b | Advanced | 0.8511 | 0.9060 | 0.8786 | 0.8621 | 0.8951 | 0.0434 |
-| 2 | crewai | orchestrator | qwen3-30b | Advanced | 0.8183 | 0.9154 | 0.8669 | 0.8377 | 0.8960 | 0.0392 |
-| 3 | crewai | blackboard | Nvidia-Nemotron3-Nano | Advanced | 0.8104 | 0.9105 | 0.8604 | 0.8304 | 0.8905 | 0.0207 |
-| 4 | crewai | blackboard | qwen3-30b | Advanced | 0.7954 | 0.9169 | 0.8562 | 0.8197 | 0.8926 | 0.0265 |
-| 5 | langgraph | single_chat | qwen3-30b | Advanced | 0.7475 | 0.9391 | 0.8433 | 0.7858 | 0.9008 | 0.0269 |
-| 6 | crewai | single_chat | qwen3-30b | Advanced | 0.8078 | 0.8725 | 0.8402 | 0.8207 | 0.8596 | 0.0179 |
-| 7 | langgraph | sequential | qwen3-30b | Advanced | 0.7243 | 0.9449 | 0.8346 | 0.7684 | 0.9008 | 0.0249 |
-| 8 | langgraph | blackboard | qwen3-30b | Advanced | 0.7264 | 0.9421 | 0.8343 | 0.7695 | 0.8990 | 0.0305 |
-| 9 | langgraph | orchestrator | qwen3-30b | Advanced | 0.7181 | 0.9426 | 0.8303 | 0.7630 | 0.8977 | 0.0191 |
-| 10 | crewai | orchestrator | Nvidia-Nemotron3-Nano | Advanced | 0.7517 | 0.8957 | 0.8237 | 0.7805 | 0.8669 | 0.0319 |
+The `SS`, `CR`, and `CS ...` columns are means over the 5 runs; the `CS balanced (min/median/max/std)` columns describe the **CS balanced (equal weights)** score across the 5 runs.
+
+| Rank | Orchestration method | Workflow | LLM | Prompt level | SS | CR | CS balanced | CS quality-focused | CS cost-focused | CS balanced (min) | CS balanced (median) | CS balanced (max) | CS balanced (std) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | crewai | sequential | qwen3-30b | Advanced | 0.8511 | 0.9060 | 0.8786 | 0.8621 | 0.8951 | 0.8020 | 0.8966 | 0.9065 | 0.0434 |
+| 2 | crewai | orchestrator | qwen3-30b | Advanced | 0.8183 | 0.9154 | 0.8669 | 0.8377 | 0.8960 | 0.7998 | 0.8853 | 0.8963 | 0.0392 |
+| 3 | crewai | blackboard | Nvidia-Nemotron3-Nano | Advanced | 0.8104 | 0.9105 | 0.8604 | 0.8304 | 0.8905 | 0.8365 | 0.8580 | 0.8934 | 0.0207 |
+| 4 | crewai | blackboard | qwen3-30b | Advanced | 0.7954 | 0.9169 | 0.8562 | 0.8197 | 0.8926 | 0.8167 | 0.8561 | 0.8889 | 0.0265 |
+| 5 | langgraph | single_chat | qwen3-30b | Advanced | 0.7475 | 0.9391 | 0.8433 | 0.7858 | 0.9008 | 0.8136 | 0.8317 | 0.8825 | 0.0269 |
+| 6 | crewai | single_chat | qwen3-30b | Advanced | 0.8078 | 0.8725 | 0.8402 | 0.8207 | 0.8596 | 0.8161 | 0.8500 | 0.8572 | 0.0179 |
+| 7 | langgraph | sequential | qwen3-30b | Advanced | 0.7243 | 0.9449 | 0.8346 | 0.7684 | 0.9008 | 0.8033 | 0.8356 | 0.8706 | 0.0249 |
+| 8 | langgraph | blackboard | qwen3-30b | Advanced | 0.7264 | 0.9421 | 0.8343 | 0.7695 | 0.8990 | 0.8015 | 0.8437 | 0.8704 | 0.0305 |
+| 9 | langgraph | orchestrator | qwen3-30b | Advanced | 0.7181 | 0.9426 | 0.8303 | 0.7630 | 0.8977 | 0.8001 | 0.8319 | 0.8479 | 0.0191 |
+| 10 | crewai | orchestrator | Nvidia-Nemotron3-Nano | Advanced | 0.7517 | 0.8957 | 0.8237 | 0.7805 | 0.8669 | 0.7750 | 0.8252 | 0.8642 | 0.0319 |

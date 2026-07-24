@@ -53,3 +53,17 @@ Each file lists the top 10 combinations for one use case under one scheme (rank 
 top-3 combinations of each list are exactly the ones whose generated documents are provided as the
 `*_first.md` / `*_second.md` / `*_third.md` selections in
 [../examples/README.md](../examples/README.md) (`examples/<use_case>/{RA,DE}/`).
+
+## Table columns
+
+| Column | Meaning |
+| ------ | ------- |
+| `Rank` | Position in this leaderboard (1 = best). |
+| `Orchestration method`, `Workflow`, `LLM`, `Prompt level` | The combination's configuration. |
+| `SS`, `CR` | Sub-metric means over the 5 runs. |
+| `CS balanced`, `CS quality-focused`, `CS cost-focused` | The three composite scores, each a mean over the 5 runs. |
+| `CS <scheme> (min)`, `(median)`, `(max)`, `(std)` | Distribution of **this file's ranking-scheme composite score** across the 5 runs. The column name names the scheme, e.g. `CS balanced (min)` in `balanced_top10.md`, `CS cost-focused (median)` in `cost_focused_top10.md`. |
+
+So the `SS`, `CR`, and `CS ...` columns are 5-run means, while the self-describing
+`CS <scheme> (min/median/max/std)` columns summarize the spread of the composite score the file is
+ranked by. All values are rounded to 4 decimals.
